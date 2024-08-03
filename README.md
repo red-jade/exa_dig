@@ -1,28 +1,26 @@
-## EXA GIS
+## EXA Dig
 
 𝔼𝕏tr𝔸 𝔼li𝕏ir 𝔸dditions (𝔼𝕏𝔸)
 
 EXA project index: [exa](https://github.com/red-jade/exa)
 
-Core utilities for GIS data and file formats (CSV, GeoJSON).
+Utilities for directed graphs using the Erlang _digraph_ library.
 
-Module path: `Exa.Gis`
+Module path: `Exa.Dig`
 
 ### Features
 
-Simple formats for locations and bearings.
+Wrapper around Erlang `digraph` module.
 
-Parsers and formatters for location fields.
-Parsers can be included in CSV Reader.
+Graphs allow cyclic graphs and self-loops, but not multi-edges 
+(multiple edges between the same pair of vertices).
 
-GeoJSON reader, using the basic JSON reader,
-with a custom GeoJSON object factory.
+Functions to fetch vertex degrees and neighborhoods.
+Build 1D and 2D histograms from vertex degrees,
+and hence generate a hash for a graph.
+Use the hash for simple isomorphism test.
 
-Fast Equirectangular (tangent plane Pythagoras) implementation of local distances.
-
-Basic Haversine (spherical geometry) for distances and geodesics.
-
-At least one projection: _Equirectangular Projection_
+Conversion to and from GraphViz DOT file format.
 
 ### License
 

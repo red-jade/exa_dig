@@ -5,7 +5,7 @@ defmodule Exa.Dig.MixProject do
     [
       app: :exa_dig,
       name: "Exa Dig",
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.15",
       erlc_options: [:verbose, :report_errors, :report_warnings, :export_all],
       start_permanent: Mix.env() == :prod,

@@ -5,7 +5,7 @@
 EXA project index: [exa](https://github.com/red-jade/exa)
 
 Utilities for directed graphs using the Erlang 
-`[digraph](https://www.erlang.org/docs/20/man/digraph)`
+_[digraph](https://www.erlang.org/docs/20/man/digraph)_
 library.
 
 Module path: `Exa.Dig`
